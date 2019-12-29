@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "~*": ["./*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["DOM", "ES2015"],
+    "moduleResolution": "Node"
+  },
+  "include": ["src/**/*"]
+}
